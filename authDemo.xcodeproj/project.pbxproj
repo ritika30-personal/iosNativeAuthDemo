@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5E2A8428C1F9D300145192 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E2A8328C1F9D300145192 /* ViewController2.swift */; };
 		7B8A092928B892B2003FBB4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A092828B892B2003FBB4B /* AppDelegate.swift */; };
 		7B8A092B28B892B2003FBB4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A092A28B892B2003FBB4B /* SceneDelegate.swift */; };
 		7B8A092D28B892B2003FBB4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A092C28B892B2003FBB4B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		7B8A094028B892B2003FBB4B /* authDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A093F28B892B2003FBB4B /* authDemoTests.swift */; };
 		7B8A094A28B892B2003FBB4B /* authDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A094928B892B2003FBB4B /* authDemoUITests.swift */; };
 		7B8A094C28B892B2003FBB4B /* authDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A094B28B892B2003FBB4B /* authDemoUITestsLaunchTests.swift */; };
+		7B8A096128B8A2E7003FBB4B /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A096028B8A2E7003FBB4B /* AuthController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B5E2A8328C1F9D300145192 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		7B8A092528B892B2003FBB4B /* authDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = authDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8A092828B892B2003FBB4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B8A092A28B892B2003FBB4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		7B8A094528B892B2003FBB4B /* authDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = authDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8A094928B892B2003FBB4B /* authDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authDemoUITests.swift; sourceTree = "<group>"; };
 		7B8A094B28B892B2003FBB4B /* authDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = authDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B8A096028B8A2E7003FBB4B /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				7B8A092828B892B2003FBB4B /* AppDelegate.swift */,
 				7B8A092A28B892B2003FBB4B /* SceneDelegate.swift */,
 				7B8A092C28B892B2003FBB4B /* ViewController.swift */,
+				7B5E2A8328C1F9D300145192 /* ViewController2.swift */,
 				7B8A092E28B892B2003FBB4B /* Main.storyboard */,
 				7B8A093128B892B2003FBB4B /* Assets.xcassets */,
 				7B8A093328B892B2003FBB4B /* LaunchScreen.storyboard */,
 				7B8A093628B892B2003FBB4B /* Info.plist */,
+				7B8A096028B8A2E7003FBB4B /* AuthController.swift */,
 			);
 			path = authDemo;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B5E2A8428C1F9D300145192 /* ViewController2.swift in Sources */,
 				7B8A092D28B892B2003FBB4B /* ViewController.swift in Sources */,
+				7B8A096128B8A2E7003FBB4B /* AuthController.swift in Sources */,
 				7B8A092928B892B2003FBB4B /* AppDelegate.swift in Sources */,
 				7B8A092B28B892B2003FBB4B /* SceneDelegate.swift in Sources */,
 			);
@@ -442,7 +450,8 @@
 				INFOPLIST_FILE = authDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +479,8 @@
 				INFOPLIST_FILE = authDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
